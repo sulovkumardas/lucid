@@ -1,0 +1,541 @@
+*{
+	padding: 0px;
+	margin: 0px;	
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration:none; 
+}
+
+/* global css code for title*/
+
+.title{
+	width: 100%;	
+}
+.title h6{
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: 600;  
+	text-transform: uppercase;
+	line-height: 28px;
+	color:  #008ed6;
+}
+.inner-banner h1{
+	font-size: 54px;
+	letter-spacing: 1px;
+	font-weight: 600;  
+	line-height: 53px;
+	margin: 20px 0px;
+}
+
+.header-section{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/home.png") center top no-repeat;
+	background-size:cover; 
+
+
+}
+.mainmenu{
+	width: 100%;
+
+}
+.mainmenu .bg-light{ 
+	background: transparent !important;
+}
+.mainmenu .navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+	background: url("../images/hr.png") center bottom no-repeat;
+	background-size: auto;
+}
+
+.mainmenu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 10px;
+} 
+.mainmenu .navbar-light .navbar-nav .nav-link:hover, .mainmenu .navbar-light .navbar-nav .nav-link:focus{
+
+background: url("../images/hr.png") center bottom no-repeat;
+	background-size: auto;
+}
+/*banner section code start*/
+.banner{
+	 width: 100%;
+	 padding: 100px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.inner-banner h6{
+	font-size: 10px;
+	letter-spacing: 3px;
+	font-weight: 600;  
+	text-transform: uppercase;
+	line-height: 28px;
+	color:  #008ed6;
+}
+.inner-banner h1{
+	font-size: 54px;
+	letter-spacing: 1px;
+	font-weight: 600;  
+	line-height: 53px;
+	color:  #fff;
+	margin: 20px 0px;
+}
+.inner-banner p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999;
+}
+.inner-bth{
+	width: 100%;
+	margin: 50px 0px 0px; 
+}
+.inner-bth .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #0099cc;
+    background: #0099cc;
+    color: #fff;
+    border-radius: 2px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.inner-bth .btn-primary:hover, .inner-bth .btn-primary:focus{
+	background:transparent;
+	border: 1px solid #0099cc;
+    color: #0099cc;
+}
+.inner-bth .btn-light {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #999999;
+    background:transparent;
+    color: #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.inner-bth .btn-light:hover, .inner-bth .btn-light:focus{
+	background: #0099cc;
+	border: 1px solid #0099cc;
+    color: #fff; 
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.feature .title {
+	text-align: center;
+} 
+.inner-feature{
+	width: 100%;
+	padding: 40px 20px 0px;
+	text-align: center;
+}
+.icons-inner{
+	width: 70px;
+	height: 70px;
+	line-height:70px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	border-radius: 100%;
+
+
+}
+.inner-feature h4 {
+    font-size: 22px;
+    margin: 20px 0px;
+    font-weight: 600;
+    color: #000;
+}
+.inner-feature p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999;
+}
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border: 1px solid #eee;
+
+}
+.about-long .titel{
+	margin-bottom: 20px;
+}
+.inner-about-long{
+	width: 100%;
+	margin-top: 40px; 
+
+}
+.inner-about-long h5{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 26px;
+	color: #008ed6;
+}
+.inner-about-long p{
+	font-size: 16px;
+	font-weight: 400;  
+	line-height: 26px;
+	color:  #999999; 
+}
+.inner-about-long .list-ablong{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 38px;
+	color: #000;
+	margin-top: 30px;
+}
+.inner-about-long .list-ablong img{
+    margin-right: 15px;
+    width: 11px;
+}
+.super{
+	width: 100%;
+	padding: 95px 0px;
+	background-color: #ccc;
+}
+.super .titel-text{
+	width: 100%;
+	padding-top: 80px;
+}
+.super .titel-text h5{
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 26px;
+	color: #008ed6; 
+}
+.super .titel-text p{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #999; 
+}
+/*testimonials start*/
+.testimonials{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/wp.png") center top no-repeat;
+	background-size: cover;
+}
+.testimonials .title{
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.testimonials .title h1{
+	color: #fff;
+}
+.testimonials .owl-carousel .owl-item h4{
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    font-style: italic;
+}
+.testimonials .owl-carousel .owl-item img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.testimonials .owl-carousel .owl-item p {
+    margin-top: 18px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.testimonials .owl-carousel .owl-item h5 {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.testimonials .owl-carousel .owl-item .mar{
+	margin: 50px 0px;
+}
+.testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0px;
+	background: #000000;
+}
+.eye-catcher h3{
+	color: #fff;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+}
+.eye-catcher h3 span{
+ font-weight: 300;
+}
+.eye-catcher .inner-bth{
+	width: 100%;
+	margin: 0px 0px 0px;
+	text-align: right; 
+}
+.inner-bth .btn-primary {
+    padding: 12px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #0099cc;
+    background: #0099cc;
+    color: #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.inner-bth .btn-primary:hover, .inner-bth .btn-primary:focus{
+	background:transparent;
+	border: 1px solid #0099cc;
+    color: #0099cc;
+}
+.inner-bth .btn-light {
+    padding: 12px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #999999;
+    background:transparent;
+    color: #fff;
+    border-radius: 2px;
+    transition: 1s;
+}
+.inner-bth .btn-light:hover, .inner-bth .btn-light:focus{
+	background: #0099cc;
+	border: 1px solid #0099cc;
+    color: #fff; 
+}
+.price-tables{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.price-tables .title{
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.main-price {
+    width: 100%;
+    border: 1px solid #eee;
+    text-align: center;
+}
+.price-head{
+ width: 100%;
+ padding: 15px 0px;
+ border-bottom: 1px solid #eee;
+}
+.price-head h2{
+ margin-bottom: 0px;
+ font-size: 32px;
+ font-weight: 700;
+ text-transform: uppercase;
+ color: #000;
+
+}
+.price-inner{
+ width: 100%;
+ padding: 30px 0px;
+ border-bottom: 1px solid #eee;
+}
+.price-inner h1{
+ margin-bottom: 0px;
+ font-size: 52px;
+ font-weight: 700;
+ text-transform: uppercase;
+ color: #000;
+}
+.price-inner h1 sup{
+    top: -0.5em;
+    font-size: 30px;
+    font-weight: 500;
+}
+.price-inner p{
+    font-size: 14px;
+    margin: -11px 0px 0px;
+    color: #999999;
+} 
+.price-content{
+ width: 100%;
+ padding: 40px 30px;
+}
+.price-content p{
+ font-size: 14px;
+ margin: 0px 0px 30px;
+ color: #999999;
+}
+.price-content p a{
+ color: #08c;
+}
+.price-content .btn-info {
+    padding: 12px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #eee;
+    background:transparent;
+    color: #008ed6;
+    border-radius: 2px;
+    transition: 1s;
+}
+.main-price:hover .price-content .btn-info, .main-price .price-content .btn-info :focus{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+    color: #fff;  
+}
+
+.main-price:hover .price-head h2{
+	color: #008ed6;
+}
+.main-price:hover .price-inner{
+	background: #008ed6;
+}
+.main-price:hover .price-inner h1, .main-price:hover .price-inner p{
+  color: #fff;
+} 
+.contect-us{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #eee;
+}
+.contect-us .title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.info{
+ width: 100%;
+ padding: 40px 0px;
+ text-align: center;
+}
+.info .fa{
+	font-size: 32px;
+	color: #008ed6;
+	margin-bottom: 20px;
+
+}
+.info .p{
+ font-size: 14px;
+ line-height: 24px;
+ color: #999999;
+}
+.main-from{
+	width: 100%;
+	padding: 80px 60px;
+	background: #15141a;
+	margin: -70px;
+	position: relative;
+	z-index: 1;
+
+}
+.main-from .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444348;
+    background: transparent;
+    border: 1px solid #444348;
+}
+.main-from .text-right{
+	text-align: right;
+}
+.price-content .btn-info {
+    padding: 15px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+     font-weight: 600;
+    text-transform: #008ed6;
+    letter-spacing: 2px;
+    border: 1px solid #008ed6;
+    color: #fff;
+    border-radius: 2px;
+    transition: 1s; 
+}
+.main-from .btn-info:hover, .main-price .price-content .btn-info :focus{
+	background: transparent;
+	border: 1px solid #008ed6;
+    color: #008ed6;  
+}
+.map{
+	width: 100%;
+
+}
+
+.footer{
+ 	width: 100%;
+ 	float: left;
+ 	padding: 10px 0px;
+ 	background: #000000;
+
+ }
+ .footer p{
+ 	font-size: 19px;
+    line-height: 24px;
+    color: #999999;
+    margin-top: 23px;
+    text-align: center;
+ }
+.socile-icons{
+	width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 3px;
+}
+.socile-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.socile-icons li a{
+	display: block;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff; 
+	font-size: 18px;
+	margin: 0px 3px;
+	transition: 1s;
+}
+.socile-icons li a:hover{
+	background: transparent;
+	color: #0099ff;
+}
